@@ -25,7 +25,7 @@ Si quieres ejecutarla en tu propia máquina:
 
 ```bash
 git clone https://github.com/WasAlexis/shessbot.git
-cd caracola-magica
+cd shellbot
 # Abre index.html en tu navegador
 ```
 
