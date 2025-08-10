@@ -29,8 +29,9 @@ body {
     margin-bottom: 5vh;
     font-family: sans-serif;
     text-align: center;
-    font-size: calc(1vw + 2vh);
+    font-size: calc(1vw + 3vh);
     color: #f1f1f1;
+    font-weight: bolder;
 }
 
 .box img {
@@ -40,11 +41,26 @@ body {
 }
 
 .box button {
+    padding: 2vh 1vw;
     width: 20vw;
-    height: 10vh;
-    font-size: calc(1vw + 1vh);
+    font-size: calc(1vw + 3vh);
     background-color: #5c4d7d;
     color: white;
     border-radius: 10px;
     border: none;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .box {
+        width: 90vw;
+    }
+
+    .box img {
+        width: 75%;
+    }
+
+    .box button {
+        width: 50vw;
+    }
 }
