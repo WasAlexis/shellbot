@@ -11,10 +11,24 @@ const phrases = [
     { phrase: "Nada", voice: "audios/Nada.m4a" }
 ];
 
+/* Increment probability for yes or no */
+
+const weidgetPhrase = [
+    phrases[0],
+    phrases[0],
+    phrases[0],
+    phrases[1],
+    phrases[1],
+    phrases[1],
+    phrases[2],
+    phrases[3],
+    phrases[4]
+];
+
 function getRandomPhrase() {
     counter++;
-    const randomIndex = Math.floor(Math.random() * phrases.length);
-    return phrases[randomIndex];
+    const randomIndex = Math.floor(Math.random() * weidgetPhrase.length);
+    return weidgetPhrase[randomIndex];
 }
 
 function playPhrase() {
